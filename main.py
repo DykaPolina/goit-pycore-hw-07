@@ -8,7 +8,7 @@ from commands.utils import parse_input
 from commands.handlers import (
     add_contact, change_contact, show_phone,
     show_all, add_birthday, show_birthday, birthdays,
-    remove_phone, find_phone, delete_contact
+    remove_phone, find_phone, delete_contact, help_command
 )
 
 def main():
@@ -48,7 +48,8 @@ def main():
                 print(find_phone(args, book))
             case "delete-contact":
                 print(delete_contact(args, book))
-
+            case "help":
+                print(help_command(args, book))
             case _:
                 print("Invalid command.")
 

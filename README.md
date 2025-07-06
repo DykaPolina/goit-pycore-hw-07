@@ -21,15 +21,17 @@ goit-pycore-hw-07/
 ## Features
 
 - Add, change, remove, and find phone numbers
+- Add multiple phone numbers at once
 - Add and show birthdays
 - Show upcoming birthdays within the next 7 days
 - Delete entire contacts
 - Display all saved contacts
+- Built-in help command
 - Handle invalid input with error messages
 
 ## Supported Commands
 
-- `add [name] [phone]`
+- `add [name] [phone1] [phone2] ...`
 - `change [name] [old_phone] [new_phone]`
 - `remove-phone [name] [phone]`
 - `find-phone [name] [phone]`
@@ -39,6 +41,7 @@ goit-pycore-hw-07/
 - `add-birthday [name] [DD.MM.YYYY]`
 - `show-birthday [name]`
 - `birthdays`
+- `help`
 - `hello`
 - `exit` or `close`
 
